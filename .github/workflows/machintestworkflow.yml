@@ -1,5 +1,3 @@
-```yaml
-
 ---
 name: nom-de-l-action
 on:
@@ -31,6 +29,3 @@ jobs:
         run: |
           ansible-playbook site.yml --syntax-check
           ansible-lint site.yml
-
-
-```
