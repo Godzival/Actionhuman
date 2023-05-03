@@ -1,6 +1,6 @@
 ```yaml
----
 
+---
 name: ansible-lint
 on: [push, pull_request]
 
@@ -22,4 +22,5 @@ jobs:
         # with:
         #   path: "playbooks/"  # <-- only one value is allowed
 
-```
+
+``
