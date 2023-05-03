@@ -1,6 +1,4 @@
-```yaml
 ---
-
 - name: Network Getting Started First Playbook
   connection: ansible.netcommon.network_cli
   gather_facts: false
@@ -14,5 +12,3 @@
     - name: Display the config
       debug:
         msg: "The hostname is {{ ansible_net_hostname }} and the OS is {{ ansible_net_version }}"
-
-```
